@@ -13,6 +13,7 @@ var Stage = /** @class */function () {
       this.scene.remove(elem);
     };
     this.container = document.getElementById('game');
+    console.log(this.container);
     // renderer
     this.renderer = new THREE.WebGLRenderer({
       antialias: true,
